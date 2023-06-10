@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact App</title>
+    <link rel="stylesheet" href="CA2.css" />
+</head>
+<body>
+    <h1>Contact List</h1>
+    <ul>
+      <li class="highLight">Contact 1</li>
+      <li>Contact 2</li>
+      <li>Contact 3</li>
+      <li>Contact 4</li>
+      <li>Contact 5</li>
+    </ul>
+    <p>Press the Left and Right arrows to switch between contacts</p>
+    <h4>Usertitle:</h4>
+    <h4>Username:</h4>
+    <h4>Phone Number:</h4>
+    <h4>Password:</h4>
+    <h4>Email:</h4>
+    <h4>Description:</h4>
+
+    <!-- Creating a Contact Form -->
+    <div class="container">
+        <label for="UserTitle">Title</label>
+        <select id="usertitle" name="usertitle">
+            <option value="Mr">Mr</option>
+            <option value="Ms">Ms</option>
+        </select>
+
+        <label for="Uname">Username</label>
+        <input type="text" id="username" name="username"
+        placeholder="Your Username...">
+
+        <label for="PhoneNumber">Phone Number</label>
+        <input type="tel" id="phonenumber" name="phonenumber"
+        placeholder="Your phone number...">
+
+        <label for="Email">Email</label>
+        <input type="email" id="email" name="email"
+        placeholder="Your Email...">
+
+        <label for="Password">Password</label>
+        <input type="password" id="password" name="password"
+        placeholder="Your Password...">
+
+        <label for="Description">Description</label>
+        <textarea id="description" name="description"
+        placeholder="Write a description..."></textarea>
+
+        <!-- Creating Buttons for the Contact Form -->
+        <button class="AddButton" onclick="AddContact();">Add</button>
+        <button class="DeleteButton" onclick="DeleteContact();">Delete</button>
+        <button class="FindButton" onclick="FindContact();">Find</button>
+        <button class="ListButton" onclick="ListContact();">List</button>
+        <button class="EditButton" onclick="EditContact();">Edit</button>
+    </div>
+
+    <script src="CA2.js"></script>
+</body>
+</html>

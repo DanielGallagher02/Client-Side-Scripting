@@ -1,0 +1,47 @@
+img { border: solid 5px;
+    margin: 15px;
+    height: 140px;
+    width : 140px;
+    padding: 10px;
+    background-color: white;
+}
+
+body{
+    background-color: lightcoral;
+}
+
+div :hover{
+    border: solid yellow;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+button{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.AddButton{
+    background-color: lightgreen;
+    border: solid green;
+}
+
+.SwapButton{
+    background-color: lightblue;
+    border: solid blue;
+}
+
+.DeleteButton{
+    background-color: red;
+    border: solid darkred;
+}
+
